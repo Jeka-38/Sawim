@@ -49,7 +49,7 @@ public class TextBoxView extends DialogFragment {
         dialogBuilder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                dismiss(); // fix cancel button SetSubject
+                dismiss();
             }
         });
         return dialogBuilder.create();
