@@ -1,10 +1,10 @@
 /*.apk
-out/*
-gen/*
-.idea/*
-build/*
-.gradle/*
-*.iml
+out
+gen
+.idea
+build
+.gradle
+sawimNE.iml
 /captures
 keystore.properties
 local.properties
